@@ -1,6 +1,8 @@
 import {React} from "react";
 import "./Login.css";
-// import { CiUser } from "react-icons/ci";
+import "../Loginform/"
+import { CiUser } from "react-icons/ci";
+import { FaLock } from "react-icons/fa";
 // import { FaUserAlt } from "react-icons/fa";
 const Login = () => {
   return (
@@ -10,10 +12,11 @@ const Login = () => {
         <div className="input-box">
           <input type="text" placeholder="username " required />
           {/* <FaUserAlt /> */}
-          {/* <CiUser /> */}
+          <CiUser className="icon" />
         </div>
         <div className="input-box">
           <input type="password " placeholder="Password " required />
+          <FaLock className="icon"/>
         </div>
         <div className="remember-forgot">
           <label htmlFor="">
