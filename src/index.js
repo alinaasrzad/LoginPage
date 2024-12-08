@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+ import './Login.css'
 import reportWebVitals from './reportWebVitals';
-import Login from './components/Login';
+import Login from './components/Loginform/Login';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
