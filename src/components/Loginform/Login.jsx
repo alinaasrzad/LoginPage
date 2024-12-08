@@ -1,6 +1,7 @@
-import React from "react";
+import {React} from "react";
 import "./Login.css";
-import { FaUserAlt } from "react-icons/fa";
+// import { CiUser } from "react-icons/ci";
+// import { FaUserAlt } from "react-icons/fa";
 const Login = () => {
   return (
     <div className="wrapper ">
@@ -8,7 +9,8 @@ const Login = () => {
         <h1>Login</h1>
         <div className="input-box">
           <input type="text" placeholder="username " required />
-          <FaUserAlt />
+          {/* <FaUserAlt /> */}
+          {/* <CiUser /> */}
         </div>
         <div className="input-box">
           <input type="password " placeholder="Password " required />

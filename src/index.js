@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import 'react-icons'
+
 import reportWebVitals from './reportWebVitals';
 import Login from './components/Loginform/Login';
 
