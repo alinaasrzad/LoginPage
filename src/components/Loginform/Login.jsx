@@ -1,6 +1,6 @@
-import {React} from "react";
+import React from "react";
 import "./Login.css";
-import "../Loginform/"
+import "./index.css"
 import { CiUser } from "react-icons/ci";
 import { FaLock } from "react-icons/fa";
 // import { FaUserAlt } from "react-icons/fa";
