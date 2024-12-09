@@ -14,7 +14,9 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url('../Assets/c5125bd2df7e9adaa0fa326f0377bfc9.jpg');
+  background: url('../Assets/lofi-girl-working-3840x2160-14820.jpg');
+background-size:cover;
+background-position: center;
 }
 
 code {
