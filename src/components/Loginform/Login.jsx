@@ -31,6 +31,9 @@ const Login = () => {
             Don't have an account
             <a href="#">Register</a>
           </p>
+          <a href="https://visitcount.itsvg.in">
+  <img src="https://visitcount.itsvg.in/api?id=alinaasrzad&label=alinaasrzad&color=10&icon=1&pretty=false" />
+</a>
         </div>
       </form>
     </div>
